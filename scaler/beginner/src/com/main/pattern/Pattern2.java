@@ -1,4 +1,4 @@
-package com.problems;
+package com.main.pattern;
 
 /**
  * Project:  practice-java
@@ -6,11 +6,9 @@ package com.problems;
  */
 
 /*
-*
-* Print Reverse Stare Case pattern
-*
-*/
-public class Problem2 {
+Print Pattern in reverse stare case
+ */
+public class Pattern2 {
     public void printVShape(int n) {
         if (n == 0) return;
         for (int i = 1; i <= n; i++) {
